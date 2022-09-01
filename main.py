@@ -19,7 +19,7 @@ from PyQt5 import uic
 from PyQt5.QtCore import QDate
 from PyQt5.QtWidgets import QApplication
 
-Form, Window = uic.loadUiType("alfa_interface.ui")
+Form, Window = uic.loadUiType("interface.ui")
 
 app = QApplication([])
 window = Window()
